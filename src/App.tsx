@@ -8,15 +8,21 @@ const App: React.FC = () => {
         <button className="back-button">&larr;</button>
       </div>
 
-      <form className="login-form">
-        <h2>Login</h2>
-        <input type="email" placeholder="Email" required />
-        <input type="password" placeholder="Senha" required />
-        <button type="submit" className="login-button">Log In</button>
-        <div className="signup-link">
+      <div className='nome-site'>
+        <h5>NameApp</h5>
+      </div>
+
+        <div className='content'>
+          <h2>Login</h2>
+          <input type="email" placeholder="Email" required />
+          <input type="password" placeholder="Senha" required />
+          <button type="submit" className="login-button">Log In</button>
+          <div className="signup-link">
           Não tem conta? <a href="/register">Crie uma</a>
+          </div>
         </div>
-      </form>
+
+
     </div>
   );
 };

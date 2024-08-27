@@ -35,7 +35,7 @@ body, html {
   .back-button {
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 44px;
     cursor: pointer;
     position: absolute;
     left: 20px;
@@ -43,23 +43,29 @@ body, html {
   }
   
   /* Formulário de login */
-  .login-form {
+  .content {
     width: 100%;
     max-width: 600px;
     padding: 40px;
-    background-color: white;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
   
-  .login-form h2 {
+  .content h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 66px;
+    margin-bottom: 66px;
+    color: #333;
+  }
+
+  .nome-site{
+    margin-bottom: 20px;
+    font-size: 26px;
+    margin-bottom: 66px;
     color: #333;
   }
   
-  .login-form input {
+  .content input {
     width: 100%;
     padding: 16px;
     margin: 15px 0;

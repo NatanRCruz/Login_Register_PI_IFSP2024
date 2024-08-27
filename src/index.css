@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #a3a3a3;
+  background-color: #f0f0f0;
   height: 100vh;    /*  altura do tamanho da tela do usuário  */
   display: flex;    
   justify-content: center;
